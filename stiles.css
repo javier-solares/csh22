@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'bakery';
+    src: url('http://codesbymerc.b1.jcink.com/uploads/codesbymerc/bakery.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    url('http://codesbymerc.b1.jcink.com/uploads/codesbymerc/bakery.ttf') format('truetype');
+    /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+body {
+    background-image: url(https://images.alphacoders.com/943/thumb-1920-943148.jpg);
+    background-position: center center;
+    background-size: initial;
+}
+
+.nvlpcn {
+    bottom: -100px;
+    position: relative;
+    width: 450px;
+    margin: 100px auto;
+    height: 270px;
+}
+
+.nvlplft,
+.nvlprgt {
+    width: 0;
+    height: 0;
+    top: 0;
+    position: absolute
+}
+
+.nvlplft {
+    border-bottom: 270px solid #010233;
+    border-right: 450px solid transparent;
+    border-left: 0 solid transparent
+}
+
+.nvlprgt {
+    border-bottom: 270px solid #010030;
+    border-left: 450px solid transparent;
+    border-right: 0 solid transparent
+}
+
+.nvlpbhn {
+    width: 450px;
+    height: 270px;
+    position: absolute;
+    background: #000524;
+    top: 0
+}
+
+
+/*cuerpo de la carta*/
+
+.lttr {
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    padding: 0 50px;
+    overflow: auto;
+    box-shadow: 0 0 2px #ffffff00;
+    font-size: 11px;
+    text-align: justify;
+    color: #000;
+    font-family: Alegreya, serif
+}
+
+.lttr :hover {
+    cursor: pointer;
+}
+
+.lttr .sgn {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 14px;
+    text-align: right;
+    text-decoration: underline;
+    margin-top: 10px
+}
+
+.lttr::-webkit-scrollbar {
+    width: 3px
+}
+
+.lttr::-webkit-scrollbar-track-piece {
+    background-color: #fff
+}
+
+.lttr::-webkit-scrollbar-thumb {
+    background-color: #CF4647;
+    border: none !important
+}
+
+.trs {
+    transition-duration: .75s;
+    -webkit-transition-duration: .75s;
+    -moz-transition-duration: .75s;
+    -ms-transition-duration: .75s;
+    -o-transition-duration: .75s
+}
+
+.nvlpcn:hover>.lttr {
+    top: -65px;
+    height: 300px;
+    z-index: 2;
+    background-image: url(https://images2.alphacoders.com/994/994578.jpg);
+    background-size: cover;
+}
+
+.nvlpcn:hover>.nvlpbhn,
+.nvlpcn:hover>.nvlplft,
+.nvlpcn:hover>.nvlprgt,
+.nvlpcn:hover>.nvlptrg {
+    opacity: 0
+}
+
+.dl {
+    transition-delay: 0s
+}
+
+.crd {
+    width: 50px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    color: #fff !important;
+    font-family: calibri;
+    font-size: 8px;
+    text-transform: uppercase;
+    background: #000;
+}
+
+.ttl {
+    font-family: bakery;
+    font-weight: normal;
+    font-size: 30px;
+    color: #CF4647;
+    text-align: center;
+}
+
+p {
+    color: #07fff3;
+    font-size: 16px;
+}
+
+.frm {
+    font-family: bakery;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 30px;
+    color: #CF4647;
+    text-align: right;
+    margin-bottom: -5px;
+}
